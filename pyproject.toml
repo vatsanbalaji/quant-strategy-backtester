@@ -1,0 +1,18 @@
+[project]
+name = "quantbench"
+version = "0.1.0"
+description = "Open-source backtester comparing AI-assisted and rule-based quant strategies, with walk-forward evaluation and leakage/overfitting guards."
+requires-python = ">=3.10"
+dependencies = [
+    "pandas>=2.0",
+    "numpy>=1.24",
+    "yfinance>=0.2.40",
+    "pydantic>=2.0",
+    "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0", "streamlit>=1.30"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

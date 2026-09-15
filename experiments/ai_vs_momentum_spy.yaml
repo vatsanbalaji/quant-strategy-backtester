@@ -1,0 +1,21 @@
+experiment_name: ai_vs_momentum_spy
+assets:
+  - SPY
+start_date: "2010-01-01"
+end_date: "2025-01-01"
+train_years: 3
+test_years: 1
+transaction_cost_bps: 5
+strategies:
+  - buy_and_hold
+  - momentum_60_day
+  - ma_crossover_20_100
+  - mean_reversion_z
+  - rsi_14
+  - ai_parameter_selector
+notes: >
+  Central research question: does AI-assisted parameter selection
+  (grid-searched in-sample, frozen out-of-sample) produce better
+  walk-forward, after-cost, risk-adjusted performance than fixed
+  rule-based strategies on SPY? Walk-forward folds: 3-year train,
+  1-year test, rolled forward one year at a time.

@@ -1,0 +1,12 @@
+# Research Log
+
+Append-only log of what each automated batch run covered and found. Full numeric results live in `reports/aggregate_results.csv`; this file is the human-readable trail.
+
+## 2026-09-15T00:25:06.311384+00:00 (commit base: no-git-repo)
+Ran 4 cells this batch. Study progress: 4/315 complete (1.3%).
+- Best Sharpe this batch: `SPY|buy_and_hold|5bps` (Sharpe=1.02, ann. return=12.39%)
+
+## 2026-09-15T00:25:22.038997+00:00 (commit base: no-git-repo)
+Ran 4 cells this batch. Study progress: 8/315 complete (2.5%).
+- Best Sharpe this batch: `SPY|ma_crossover_20_100|5bps` (Sharpe=0.62, ann. return=5.44%)
+

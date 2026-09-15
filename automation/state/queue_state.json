@@ -1,0 +1,3259 @@
+{
+  "cells": [
+    {
+      "id": "SPY|buy_and_hold|5bps",
+      "asset": "SPY",
+      "strategy": "buy_and_hold",
+      "cost_bps": 5,
+      "status": "done",
+      "result": {
+        "total_return": 0.12122797422698368,
+        "annualized_return": 0.12388950612256618,
+        "annualized_volatility": 0.16676687705696344,
+        "sharpe_ratio": 1.0236498740504891,
+        "sortino_ratio": 1.42539540480497,
+        "max_drawdown": -0.14013995703283189,
+        "win_rate": 0.5533203924224218,
+        "profit_factor": 1.2079166036810496,
+        "total_transaction_costs": 50.0,
+        "transaction_cost_pct_of_capital": 0.0005000000000000002,
+        "turnover": 0.004064911508902519,
+        "n_folds": 24
+      },
+      "completed_at": "2026-09-15T00:25:01.400596+00:00",
+      "error": null
+    },
+    {
+      "id": "SPY|buy_and_hold|10bps",
+      "asset": "SPY",
+      "strategy": "buy_and_hold",
+      "cost_bps": 10,
+      "status": "done",
+      "result": {
+        "total_return": 0.12072797422698411,
+        "annualized_return": 0.12337774480136628,
+        "annualized_volatility": 0.16685932775221654,
+        "sharpe_ratio": 1.0200489232212249,
+        "sortino_ratio": 1.420271862559561,
+        "max_drawdown": -0.140251960209925,
+        "win_rate": 0.5533203924224218,
+        "profit_factor": 1.2071588346094027,
+        "total_transaction_costs": 100.0,
+        "transaction_cost_pct_of_capital": 0.0010000000000000005,
+        "turnover": 0.004064911508902519,
+        "n_folds": 24
+      },
+      "completed_at": "2026-09-15T00:25:03.066349+00:00",
+      "error": null
+    },
+    {
+      "id": "SPY|buy_and_hold|20bps",
+      "asset": "SPY",
+      "strategy": "buy_and_hold",
+      "cost_bps": 20,
+      "status": "done",
+      "result": {
+        "total_return": 0.1197279742269839,
+        "annualized_return": 0.12235424219447337,
+        "annualized_volatility": 0.1670499068287247,
+        "sharpe_ratio": 1.0127948593840228,
+        "sortino_ratio": 1.4096795326621805,
+        "max_drawdown": -0.14047610538166008,
+        "win_rate": 0.5529115338855333,
+        "profit_factor": 1.2056312970284762,
+        "total_transaction_costs": 200.0,
+        "transaction_cost_pct_of_capital": 0.002000000000000001,
+        "turnover": 0.004064911508902519,
+        "n_folds": 24
+      },
+      "completed_at": "2026-09-15T00:25:03.838980+00:00",
+      "error": null
+    },
+    {
+      "id": "SPY|momentum_60_day|5bps",
+      "asset": "SPY",
+      "strategy": "momentum_60_day",
+      "cost_bps": 5,
+      "status": "done",
+      "result": {
+        "total_return": 0.059821480532622956,
+        "annualized_return": 0.061091076073171914,
+        "annualized_volatility": 0.088036386513674,
+        "sharpe_ratio": 0.5857650244467786,
+        "sortino_ratio": 0.7118816900940536,
+        "max_drawdown": -0.07376268483931152,
+        "win_rate": 0.5510611317085884,
+        "profit_factor": 1.1730493002129494,
+        "total_transaction_costs": 122.56311906371859,
+        "transaction_cost_pct_of_capital": 0.001225631190637186,
+        "turnover": 0.010056321974644575,
+        "n_folds": 24
+      },
+      "completed_at": "2026-09-15T00:25:06.264357+00:00",
+      "error": null
+    },
+    {
+      "id": "SPY|momentum_60_day|10bps",
+      "asset": "SPY",
+      "strategy": "momentum_60_day",
+      "cost_bps": 10,
+      "status": "done",
+      "result": {
+        "total_return": 0.05859283088115227,
+        "annualized_return": 0.059849649972592144,
+        "annualized_volatility": 0.08807205286042347,
+        "sharpe_ratio": 0.5696504587850959,
+        "sortino_ratio": 0.698366275303472,
+        "max_drawdown": -0.07430285755833307,
+        "win_rate": 0.5503198095386949,
+        "profit_factor": 1.1679994270527532,
+        "total_transaction_costs": 245.02091123462375,
+        "transaction_cost_pct_of_capital": 0.002450209112346238,
+        "turnover": 0.010056321974644575,
+        "n_folds": 24
+      },
+      "completed_at": "2026-09-15T00:25:17.834334+00:00",
+      "error": null
+    },
+    {
+      "id": "SPY|momentum_60_day|20bps",
+      "asset": "SPY",
+      "strategy": "momentum_60_day",
+      "cost_bps": 20,
+      "status": "done",
+      "result": {
+        "total_return": 0.05613869461157956,
+        "annualized_return": 0.05737000618923054,
+        "annualized_volatility": 0.08816726015145436,
+        "sharpe_ratio": 0.5373895137399168,
+        "sortino_ratio": 0.6706325107924593,
+        "max_drawdown": -0.07538280209306719,
+        "win_rate": 0.5475105602529056,
+        "profit_factor": 1.1580824452121135,
+        "total_transaction_costs": 489.6207099826798,
+        "transaction_cost_pct_of_capital": 0.004896207099826798,
+        "turnover": 0.010056321974644575,
+        "n_folds": 24
+      },
+      "completed_at": "2026-09-15T00:25:18.785545+00:00",
+      "error": null
+    },
+    {
+      "id": "SPY|ma_crossover_20_100|5bps",
+      "asset": "SPY",
+      "strategy": "ma_crossover_20_100",
+      "cost_bps": 5,
+      "status": "done",
+      "result": {
+        "total_return": 0.053956590764919855,
+        "annualized_return": 0.05441349999458566,
+        "annualized_volatility": 0.08544025790409049,
+        "sharpe_ratio": 0.6203919236626546,
+        "sortino_ratio": 0.7025458535837451,
+        "max_drawdown": -0.07615085378550135,
+        "win_rate": 0.5483336404970048,
+        "profit_factor": 1.1823892104108775,
+        "total_transaction_costs": 112.79134911784547,
+        "transaction_cost_pct_of_capital": 0.0011279134911784548,
+        "turnover": 0.009220980609182727,
+        "n_folds": 24
+      },
+      "completed_at": "2026-09-15T00:25:20.394853+00:00",
+      "error": null
+    },
+    {
+      "id": "SPY|ma_crossover_20_100|10bps",
+      "asset": "SPY",
+      "strategy": "ma_crossover_20_100",
+      "cost_bps": 10,
+      "status": "done",
+      "result": {
+        "total_return": 0.05282415826905645,
+        "annualized_return": 0.0532694111238401,
+        "annualized_volatility": 0.08547040629430525,
+        "sharpe_ratio": 0.6054767200849186,
+        "sortino_ratio": 0.6906541854707905,
+        "max_drawdown": -0.07659449917013558,
+        "win_rate": 0.547061082875496,
+        "profit_factor": 1.1778013281472646,
+        "total_transaction_costs": 225.50579613170927,
+        "transaction_cost_pct_of_capital": 0.0022550579613170928,
+        "turnover": 0.009220980609182727,
+        "n_folds": 24
+      },
+      "completed_at": "2026-09-15T00:25:22.009046+00:00",
+      "error": null
+    },
+    {
+      "id": "SPY|ma_crossover_20_100|20bps",
+      "asset": "SPY",
+      "strategy": "ma_crossover_20_100",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "SPY|mean_reversion_z|5bps",
+      "asset": "SPY",
+      "strategy": "mean_reversion_z",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "SPY|mean_reversion_z|10bps",
+      "asset": "SPY",
+      "strategy": "mean_reversion_z",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "SPY|mean_reversion_z|20bps",
+      "asset": "SPY",
+      "strategy": "mean_reversion_z",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "SPY|rsi_14|5bps",
+      "asset": "SPY",
+      "strategy": "rsi_14",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "SPY|rsi_14|10bps",
+      "asset": "SPY",
+      "strategy": "rsi_14",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "SPY|rsi_14|20bps",
+      "asset": "SPY",
+      "strategy": "rsi_14",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "SPY|vol_target_10pct|5bps",
+      "asset": "SPY",
+      "strategy": "vol_target_10pct",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "SPY|vol_target_10pct|10bps",
+      "asset": "SPY",
+      "strategy": "vol_target_10pct",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "SPY|vol_target_10pct|20bps",
+      "asset": "SPY",
+      "strategy": "vol_target_10pct",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "SPY|ai_parameter_selector|5bps",
+      "asset": "SPY",
+      "strategy": "ai_parameter_selector",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "SPY|ai_parameter_selector|10bps",
+      "asset": "SPY",
+      "strategy": "ai_parameter_selector",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "SPY|ai_parameter_selector|20bps",
+      "asset": "SPY",
+      "strategy": "ai_parameter_selector",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "QQQ|buy_and_hold|5bps",
+      "asset": "QQQ",
+      "strategy": "buy_and_hold",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "QQQ|buy_and_hold|10bps",
+      "asset": "QQQ",
+      "strategy": "buy_and_hold",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "QQQ|buy_and_hold|20bps",
+      "asset": "QQQ",
+      "strategy": "buy_and_hold",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "QQQ|momentum_60_day|5bps",
+      "asset": "QQQ",
+      "strategy": "momentum_60_day",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "QQQ|momentum_60_day|10bps",
+      "asset": "QQQ",
+      "strategy": "momentum_60_day",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "QQQ|momentum_60_day|20bps",
+      "asset": "QQQ",
+      "strategy": "momentum_60_day",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "QQQ|ma_crossover_20_100|5bps",
+      "asset": "QQQ",
+      "strategy": "ma_crossover_20_100",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "QQQ|ma_crossover_20_100|10bps",
+      "asset": "QQQ",
+      "strategy": "ma_crossover_20_100",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "QQQ|ma_crossover_20_100|20bps",
+      "asset": "QQQ",
+      "strategy": "ma_crossover_20_100",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "QQQ|mean_reversion_z|5bps",
+      "asset": "QQQ",
+      "strategy": "mean_reversion_z",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "QQQ|mean_reversion_z|10bps",
+      "asset": "QQQ",
+      "strategy": "mean_reversion_z",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "QQQ|mean_reversion_z|20bps",
+      "asset": "QQQ",
+      "strategy": "mean_reversion_z",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "QQQ|rsi_14|5bps",
+      "asset": "QQQ",
+      "strategy": "rsi_14",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "QQQ|rsi_14|10bps",
+      "asset": "QQQ",
+      "strategy": "rsi_14",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "QQQ|rsi_14|20bps",
+      "asset": "QQQ",
+      "strategy": "rsi_14",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "QQQ|vol_target_10pct|5bps",
+      "asset": "QQQ",
+      "strategy": "vol_target_10pct",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "QQQ|vol_target_10pct|10bps",
+      "asset": "QQQ",
+      "strategy": "vol_target_10pct",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "QQQ|vol_target_10pct|20bps",
+      "asset": "QQQ",
+      "strategy": "vol_target_10pct",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "QQQ|ai_parameter_selector|5bps",
+      "asset": "QQQ",
+      "strategy": "ai_parameter_selector",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "QQQ|ai_parameter_selector|10bps",
+      "asset": "QQQ",
+      "strategy": "ai_parameter_selector",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "QQQ|ai_parameter_selector|20bps",
+      "asset": "QQQ",
+      "strategy": "ai_parameter_selector",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "IWM|buy_and_hold|5bps",
+      "asset": "IWM",
+      "strategy": "buy_and_hold",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "IWM|buy_and_hold|10bps",
+      "asset": "IWM",
+      "strategy": "buy_and_hold",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "IWM|buy_and_hold|20bps",
+      "asset": "IWM",
+      "strategy": "buy_and_hold",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "IWM|momentum_60_day|5bps",
+      "asset": "IWM",
+      "strategy": "momentum_60_day",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "IWM|momentum_60_day|10bps",
+      "asset": "IWM",
+      "strategy": "momentum_60_day",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "IWM|momentum_60_day|20bps",
+      "asset": "IWM",
+      "strategy": "momentum_60_day",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "IWM|ma_crossover_20_100|5bps",
+      "asset": "IWM",
+      "strategy": "ma_crossover_20_100",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "IWM|ma_crossover_20_100|10bps",
+      "asset": "IWM",
+      "strategy": "ma_crossover_20_100",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "IWM|ma_crossover_20_100|20bps",
+      "asset": "IWM",
+      "strategy": "ma_crossover_20_100",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "IWM|mean_reversion_z|5bps",
+      "asset": "IWM",
+      "strategy": "mean_reversion_z",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "IWM|mean_reversion_z|10bps",
+      "asset": "IWM",
+      "strategy": "mean_reversion_z",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "IWM|mean_reversion_z|20bps",
+      "asset": "IWM",
+      "strategy": "mean_reversion_z",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "IWM|rsi_14|5bps",
+      "asset": "IWM",
+      "strategy": "rsi_14",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "IWM|rsi_14|10bps",
+      "asset": "IWM",
+      "strategy": "rsi_14",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "IWM|rsi_14|20bps",
+      "asset": "IWM",
+      "strategy": "rsi_14",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "IWM|vol_target_10pct|5bps",
+      "asset": "IWM",
+      "strategy": "vol_target_10pct",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "IWM|vol_target_10pct|10bps",
+      "asset": "IWM",
+      "strategy": "vol_target_10pct",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "IWM|vol_target_10pct|20bps",
+      "asset": "IWM",
+      "strategy": "vol_target_10pct",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "IWM|ai_parameter_selector|5bps",
+      "asset": "IWM",
+      "strategy": "ai_parameter_selector",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "IWM|ai_parameter_selector|10bps",
+      "asset": "IWM",
+      "strategy": "ai_parameter_selector",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "IWM|ai_parameter_selector|20bps",
+      "asset": "IWM",
+      "strategy": "ai_parameter_selector",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "DIA|buy_and_hold|5bps",
+      "asset": "DIA",
+      "strategy": "buy_and_hold",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "DIA|buy_and_hold|10bps",
+      "asset": "DIA",
+      "strategy": "buy_and_hold",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "DIA|buy_and_hold|20bps",
+      "asset": "DIA",
+      "strategy": "buy_and_hold",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "DIA|momentum_60_day|5bps",
+      "asset": "DIA",
+      "strategy": "momentum_60_day",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "DIA|momentum_60_day|10bps",
+      "asset": "DIA",
+      "strategy": "momentum_60_day",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "DIA|momentum_60_day|20bps",
+      "asset": "DIA",
+      "strategy": "momentum_60_day",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "DIA|ma_crossover_20_100|5bps",
+      "asset": "DIA",
+      "strategy": "ma_crossover_20_100",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "DIA|ma_crossover_20_100|10bps",
+      "asset": "DIA",
+      "strategy": "ma_crossover_20_100",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "DIA|ma_crossover_20_100|20bps",
+      "asset": "DIA",
+      "strategy": "ma_crossover_20_100",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "DIA|mean_reversion_z|5bps",
+      "asset": "DIA",
+      "strategy": "mean_reversion_z",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "DIA|mean_reversion_z|10bps",
+      "asset": "DIA",
+      "strategy": "mean_reversion_z",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "DIA|mean_reversion_z|20bps",
+      "asset": "DIA",
+      "strategy": "mean_reversion_z",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "DIA|rsi_14|5bps",
+      "asset": "DIA",
+      "strategy": "rsi_14",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "DIA|rsi_14|10bps",
+      "asset": "DIA",
+      "strategy": "rsi_14",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "DIA|rsi_14|20bps",
+      "asset": "DIA",
+      "strategy": "rsi_14",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "DIA|vol_target_10pct|5bps",
+      "asset": "DIA",
+      "strategy": "vol_target_10pct",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "DIA|vol_target_10pct|10bps",
+      "asset": "DIA",
+      "strategy": "vol_target_10pct",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "DIA|vol_target_10pct|20bps",
+      "asset": "DIA",
+      "strategy": "vol_target_10pct",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "DIA|ai_parameter_selector|5bps",
+      "asset": "DIA",
+      "strategy": "ai_parameter_selector",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "DIA|ai_parameter_selector|10bps",
+      "asset": "DIA",
+      "strategy": "ai_parameter_selector",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "DIA|ai_parameter_selector|20bps",
+      "asset": "DIA",
+      "strategy": "ai_parameter_selector",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "EFA|buy_and_hold|5bps",
+      "asset": "EFA",
+      "strategy": "buy_and_hold",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "EFA|buy_and_hold|10bps",
+      "asset": "EFA",
+      "strategy": "buy_and_hold",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "EFA|buy_and_hold|20bps",
+      "asset": "EFA",
+      "strategy": "buy_and_hold",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "EFA|momentum_60_day|5bps",
+      "asset": "EFA",
+      "strategy": "momentum_60_day",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "EFA|momentum_60_day|10bps",
+      "asset": "EFA",
+      "strategy": "momentum_60_day",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "EFA|momentum_60_day|20bps",
+      "asset": "EFA",
+      "strategy": "momentum_60_day",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "EFA|ma_crossover_20_100|5bps",
+      "asset": "EFA",
+      "strategy": "ma_crossover_20_100",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "EFA|ma_crossover_20_100|10bps",
+      "asset": "EFA",
+      "strategy": "ma_crossover_20_100",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "EFA|ma_crossover_20_100|20bps",
+      "asset": "EFA",
+      "strategy": "ma_crossover_20_100",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "EFA|mean_reversion_z|5bps",
+      "asset": "EFA",
+      "strategy": "mean_reversion_z",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "EFA|mean_reversion_z|10bps",
+      "asset": "EFA",
+      "strategy": "mean_reversion_z",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "EFA|mean_reversion_z|20bps",
+      "asset": "EFA",
+      "strategy": "mean_reversion_z",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "EFA|rsi_14|5bps",
+      "asset": "EFA",
+      "strategy": "rsi_14",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "EFA|rsi_14|10bps",
+      "asset": "EFA",
+      "strategy": "rsi_14",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "EFA|rsi_14|20bps",
+      "asset": "EFA",
+      "strategy": "rsi_14",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "EFA|vol_target_10pct|5bps",
+      "asset": "EFA",
+      "strategy": "vol_target_10pct",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "EFA|vol_target_10pct|10bps",
+      "asset": "EFA",
+      "strategy": "vol_target_10pct",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "EFA|vol_target_10pct|20bps",
+      "asset": "EFA",
+      "strategy": "vol_target_10pct",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "EFA|ai_parameter_selector|5bps",
+      "asset": "EFA",
+      "strategy": "ai_parameter_selector",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "EFA|ai_parameter_selector|10bps",
+      "asset": "EFA",
+      "strategy": "ai_parameter_selector",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "EFA|ai_parameter_selector|20bps",
+      "asset": "EFA",
+      "strategy": "ai_parameter_selector",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "EEM|buy_and_hold|5bps",
+      "asset": "EEM",
+      "strategy": "buy_and_hold",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "EEM|buy_and_hold|10bps",
+      "asset": "EEM",
+      "strategy": "buy_and_hold",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "EEM|buy_and_hold|20bps",
+      "asset": "EEM",
+      "strategy": "buy_and_hold",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "EEM|momentum_60_day|5bps",
+      "asset": "EEM",
+      "strategy": "momentum_60_day",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "EEM|momentum_60_day|10bps",
+      "asset": "EEM",
+      "strategy": "momentum_60_day",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "EEM|momentum_60_day|20bps",
+      "asset": "EEM",
+      "strategy": "momentum_60_day",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "EEM|ma_crossover_20_100|5bps",
+      "asset": "EEM",
+      "strategy": "ma_crossover_20_100",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "EEM|ma_crossover_20_100|10bps",
+      "asset": "EEM",
+      "strategy": "ma_crossover_20_100",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "EEM|ma_crossover_20_100|20bps",
+      "asset": "EEM",
+      "strategy": "ma_crossover_20_100",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "EEM|mean_reversion_z|5bps",
+      "asset": "EEM",
+      "strategy": "mean_reversion_z",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "EEM|mean_reversion_z|10bps",
+      "asset": "EEM",
+      "strategy": "mean_reversion_z",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "EEM|mean_reversion_z|20bps",
+      "asset": "EEM",
+      "strategy": "mean_reversion_z",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "EEM|rsi_14|5bps",
+      "asset": "EEM",
+      "strategy": "rsi_14",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "EEM|rsi_14|10bps",
+      "asset": "EEM",
+      "strategy": "rsi_14",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "EEM|rsi_14|20bps",
+      "asset": "EEM",
+      "strategy": "rsi_14",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "EEM|vol_target_10pct|5bps",
+      "asset": "EEM",
+      "strategy": "vol_target_10pct",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "EEM|vol_target_10pct|10bps",
+      "asset": "EEM",
+      "strategy": "vol_target_10pct",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "EEM|vol_target_10pct|20bps",
+      "asset": "EEM",
+      "strategy": "vol_target_10pct",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "EEM|ai_parameter_selector|5bps",
+      "asset": "EEM",
+      "strategy": "ai_parameter_selector",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "EEM|ai_parameter_selector|10bps",
+      "asset": "EEM",
+      "strategy": "ai_parameter_selector",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "EEM|ai_parameter_selector|20bps",
+      "asset": "EEM",
+      "strategy": "ai_parameter_selector",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "TLT|buy_and_hold|5bps",
+      "asset": "TLT",
+      "strategy": "buy_and_hold",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "TLT|buy_and_hold|10bps",
+      "asset": "TLT",
+      "strategy": "buy_and_hold",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "TLT|buy_and_hold|20bps",
+      "asset": "TLT",
+      "strategy": "buy_and_hold",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "TLT|momentum_60_day|5bps",
+      "asset": "TLT",
+      "strategy": "momentum_60_day",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "TLT|momentum_60_day|10bps",
+      "asset": "TLT",
+      "strategy": "momentum_60_day",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "TLT|momentum_60_day|20bps",
+      "asset": "TLT",
+      "strategy": "momentum_60_day",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "TLT|ma_crossover_20_100|5bps",
+      "asset": "TLT",
+      "strategy": "ma_crossover_20_100",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "TLT|ma_crossover_20_100|10bps",
+      "asset": "TLT",
+      "strategy": "ma_crossover_20_100",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "TLT|ma_crossover_20_100|20bps",
+      "asset": "TLT",
+      "strategy": "ma_crossover_20_100",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "TLT|mean_reversion_z|5bps",
+      "asset": "TLT",
+      "strategy": "mean_reversion_z",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "TLT|mean_reversion_z|10bps",
+      "asset": "TLT",
+      "strategy": "mean_reversion_z",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "TLT|mean_reversion_z|20bps",
+      "asset": "TLT",
+      "strategy": "mean_reversion_z",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "TLT|rsi_14|5bps",
+      "asset": "TLT",
+      "strategy": "rsi_14",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "TLT|rsi_14|10bps",
+      "asset": "TLT",
+      "strategy": "rsi_14",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "TLT|rsi_14|20bps",
+      "asset": "TLT",
+      "strategy": "rsi_14",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "TLT|vol_target_10pct|5bps",
+      "asset": "TLT",
+      "strategy": "vol_target_10pct",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "TLT|vol_target_10pct|10bps",
+      "asset": "TLT",
+      "strategy": "vol_target_10pct",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "TLT|vol_target_10pct|20bps",
+      "asset": "TLT",
+      "strategy": "vol_target_10pct",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "TLT|ai_parameter_selector|5bps",
+      "asset": "TLT",
+      "strategy": "ai_parameter_selector",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "TLT|ai_parameter_selector|10bps",
+      "asset": "TLT",
+      "strategy": "ai_parameter_selector",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "TLT|ai_parameter_selector|20bps",
+      "asset": "TLT",
+      "strategy": "ai_parameter_selector",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "IEF|buy_and_hold|5bps",
+      "asset": "IEF",
+      "strategy": "buy_and_hold",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "IEF|buy_and_hold|10bps",
+      "asset": "IEF",
+      "strategy": "buy_and_hold",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "IEF|buy_and_hold|20bps",
+      "asset": "IEF",
+      "strategy": "buy_and_hold",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "IEF|momentum_60_day|5bps",
+      "asset": "IEF",
+      "strategy": "momentum_60_day",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "IEF|momentum_60_day|10bps",
+      "asset": "IEF",
+      "strategy": "momentum_60_day",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "IEF|momentum_60_day|20bps",
+      "asset": "IEF",
+      "strategy": "momentum_60_day",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "IEF|ma_crossover_20_100|5bps",
+      "asset": "IEF",
+      "strategy": "ma_crossover_20_100",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "IEF|ma_crossover_20_100|10bps",
+      "asset": "IEF",
+      "strategy": "ma_crossover_20_100",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "IEF|ma_crossover_20_100|20bps",
+      "asset": "IEF",
+      "strategy": "ma_crossover_20_100",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "IEF|mean_reversion_z|5bps",
+      "asset": "IEF",
+      "strategy": "mean_reversion_z",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "IEF|mean_reversion_z|10bps",
+      "asset": "IEF",
+      "strategy": "mean_reversion_z",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "IEF|mean_reversion_z|20bps",
+      "asset": "IEF",
+      "strategy": "mean_reversion_z",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "IEF|rsi_14|5bps",
+      "asset": "IEF",
+      "strategy": "rsi_14",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "IEF|rsi_14|10bps",
+      "asset": "IEF",
+      "strategy": "rsi_14",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "IEF|rsi_14|20bps",
+      "asset": "IEF",
+      "strategy": "rsi_14",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "IEF|vol_target_10pct|5bps",
+      "asset": "IEF",
+      "strategy": "vol_target_10pct",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "IEF|vol_target_10pct|10bps",
+      "asset": "IEF",
+      "strategy": "vol_target_10pct",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "IEF|vol_target_10pct|20bps",
+      "asset": "IEF",
+      "strategy": "vol_target_10pct",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "IEF|ai_parameter_selector|5bps",
+      "asset": "IEF",
+      "strategy": "ai_parameter_selector",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "IEF|ai_parameter_selector|10bps",
+      "asset": "IEF",
+      "strategy": "ai_parameter_selector",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "IEF|ai_parameter_selector|20bps",
+      "asset": "IEF",
+      "strategy": "ai_parameter_selector",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "LQD|buy_and_hold|5bps",
+      "asset": "LQD",
+      "strategy": "buy_and_hold",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "LQD|buy_and_hold|10bps",
+      "asset": "LQD",
+      "strategy": "buy_and_hold",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "LQD|buy_and_hold|20bps",
+      "asset": "LQD",
+      "strategy": "buy_and_hold",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "LQD|momentum_60_day|5bps",
+      "asset": "LQD",
+      "strategy": "momentum_60_day",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "LQD|momentum_60_day|10bps",
+      "asset": "LQD",
+      "strategy": "momentum_60_day",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "LQD|momentum_60_day|20bps",
+      "asset": "LQD",
+      "strategy": "momentum_60_day",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "LQD|ma_crossover_20_100|5bps",
+      "asset": "LQD",
+      "strategy": "ma_crossover_20_100",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "LQD|ma_crossover_20_100|10bps",
+      "asset": "LQD",
+      "strategy": "ma_crossover_20_100",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "LQD|ma_crossover_20_100|20bps",
+      "asset": "LQD",
+      "strategy": "ma_crossover_20_100",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "LQD|mean_reversion_z|5bps",
+      "asset": "LQD",
+      "strategy": "mean_reversion_z",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "LQD|mean_reversion_z|10bps",
+      "asset": "LQD",
+      "strategy": "mean_reversion_z",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "LQD|mean_reversion_z|20bps",
+      "asset": "LQD",
+      "strategy": "mean_reversion_z",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "LQD|rsi_14|5bps",
+      "asset": "LQD",
+      "strategy": "rsi_14",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "LQD|rsi_14|10bps",
+      "asset": "LQD",
+      "strategy": "rsi_14",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "LQD|rsi_14|20bps",
+      "asset": "LQD",
+      "strategy": "rsi_14",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "LQD|vol_target_10pct|5bps",
+      "asset": "LQD",
+      "strategy": "vol_target_10pct",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "LQD|vol_target_10pct|10bps",
+      "asset": "LQD",
+      "strategy": "vol_target_10pct",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "LQD|vol_target_10pct|20bps",
+      "asset": "LQD",
+      "strategy": "vol_target_10pct",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "LQD|ai_parameter_selector|5bps",
+      "asset": "LQD",
+      "strategy": "ai_parameter_selector",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "LQD|ai_parameter_selector|10bps",
+      "asset": "LQD",
+      "strategy": "ai_parameter_selector",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "LQD|ai_parameter_selector|20bps",
+      "asset": "LQD",
+      "strategy": "ai_parameter_selector",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "GLD|buy_and_hold|5bps",
+      "asset": "GLD",
+      "strategy": "buy_and_hold",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "GLD|buy_and_hold|10bps",
+      "asset": "GLD",
+      "strategy": "buy_and_hold",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "GLD|buy_and_hold|20bps",
+      "asset": "GLD",
+      "strategy": "buy_and_hold",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "GLD|momentum_60_day|5bps",
+      "asset": "GLD",
+      "strategy": "momentum_60_day",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "GLD|momentum_60_day|10bps",
+      "asset": "GLD",
+      "strategy": "momentum_60_day",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "GLD|momentum_60_day|20bps",
+      "asset": "GLD",
+      "strategy": "momentum_60_day",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "GLD|ma_crossover_20_100|5bps",
+      "asset": "GLD",
+      "strategy": "ma_crossover_20_100",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "GLD|ma_crossover_20_100|10bps",
+      "asset": "GLD",
+      "strategy": "ma_crossover_20_100",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "GLD|ma_crossover_20_100|20bps",
+      "asset": "GLD",
+      "strategy": "ma_crossover_20_100",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "GLD|mean_reversion_z|5bps",
+      "asset": "GLD",
+      "strategy": "mean_reversion_z",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "GLD|mean_reversion_z|10bps",
+      "asset": "GLD",
+      "strategy": "mean_reversion_z",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "GLD|mean_reversion_z|20bps",
+      "asset": "GLD",
+      "strategy": "mean_reversion_z",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "GLD|rsi_14|5bps",
+      "asset": "GLD",
+      "strategy": "rsi_14",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "GLD|rsi_14|10bps",
+      "asset": "GLD",
+      "strategy": "rsi_14",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "GLD|rsi_14|20bps",
+      "asset": "GLD",
+      "strategy": "rsi_14",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "GLD|vol_target_10pct|5bps",
+      "asset": "GLD",
+      "strategy": "vol_target_10pct",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "GLD|vol_target_10pct|10bps",
+      "asset": "GLD",
+      "strategy": "vol_target_10pct",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "GLD|vol_target_10pct|20bps",
+      "asset": "GLD",
+      "strategy": "vol_target_10pct",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "GLD|ai_parameter_selector|5bps",
+      "asset": "GLD",
+      "strategy": "ai_parameter_selector",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "GLD|ai_parameter_selector|10bps",
+      "asset": "GLD",
+      "strategy": "ai_parameter_selector",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "GLD|ai_parameter_selector|20bps",
+      "asset": "GLD",
+      "strategy": "ai_parameter_selector",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "SLV|buy_and_hold|5bps",
+      "asset": "SLV",
+      "strategy": "buy_and_hold",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "SLV|buy_and_hold|10bps",
+      "asset": "SLV",
+      "strategy": "buy_and_hold",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "SLV|buy_and_hold|20bps",
+      "asset": "SLV",
+      "strategy": "buy_and_hold",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "SLV|momentum_60_day|5bps",
+      "asset": "SLV",
+      "strategy": "momentum_60_day",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "SLV|momentum_60_day|10bps",
+      "asset": "SLV",
+      "strategy": "momentum_60_day",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "SLV|momentum_60_day|20bps",
+      "asset": "SLV",
+      "strategy": "momentum_60_day",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "SLV|ma_crossover_20_100|5bps",
+      "asset": "SLV",
+      "strategy": "ma_crossover_20_100",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "SLV|ma_crossover_20_100|10bps",
+      "asset": "SLV",
+      "strategy": "ma_crossover_20_100",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "SLV|ma_crossover_20_100|20bps",
+      "asset": "SLV",
+      "strategy": "ma_crossover_20_100",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "SLV|mean_reversion_z|5bps",
+      "asset": "SLV",
+      "strategy": "mean_reversion_z",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "SLV|mean_reversion_z|10bps",
+      "asset": "SLV",
+      "strategy": "mean_reversion_z",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "SLV|mean_reversion_z|20bps",
+      "asset": "SLV",
+      "strategy": "mean_reversion_z",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "SLV|rsi_14|5bps",
+      "asset": "SLV",
+      "strategy": "rsi_14",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "SLV|rsi_14|10bps",
+      "asset": "SLV",
+      "strategy": "rsi_14",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "SLV|rsi_14|20bps",
+      "asset": "SLV",
+      "strategy": "rsi_14",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "SLV|vol_target_10pct|5bps",
+      "asset": "SLV",
+      "strategy": "vol_target_10pct",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "SLV|vol_target_10pct|10bps",
+      "asset": "SLV",
+      "strategy": "vol_target_10pct",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "SLV|vol_target_10pct|20bps",
+      "asset": "SLV",
+      "strategy": "vol_target_10pct",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "SLV|ai_parameter_selector|5bps",
+      "asset": "SLV",
+      "strategy": "ai_parameter_selector",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "SLV|ai_parameter_selector|10bps",
+      "asset": "SLV",
+      "strategy": "ai_parameter_selector",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "SLV|ai_parameter_selector|20bps",
+      "asset": "SLV",
+      "strategy": "ai_parameter_selector",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLF|buy_and_hold|5bps",
+      "asset": "XLF",
+      "strategy": "buy_and_hold",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLF|buy_and_hold|10bps",
+      "asset": "XLF",
+      "strategy": "buy_and_hold",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLF|buy_and_hold|20bps",
+      "asset": "XLF",
+      "strategy": "buy_and_hold",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLF|momentum_60_day|5bps",
+      "asset": "XLF",
+      "strategy": "momentum_60_day",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLF|momentum_60_day|10bps",
+      "asset": "XLF",
+      "strategy": "momentum_60_day",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLF|momentum_60_day|20bps",
+      "asset": "XLF",
+      "strategy": "momentum_60_day",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLF|ma_crossover_20_100|5bps",
+      "asset": "XLF",
+      "strategy": "ma_crossover_20_100",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLF|ma_crossover_20_100|10bps",
+      "asset": "XLF",
+      "strategy": "ma_crossover_20_100",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLF|ma_crossover_20_100|20bps",
+      "asset": "XLF",
+      "strategy": "ma_crossover_20_100",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLF|mean_reversion_z|5bps",
+      "asset": "XLF",
+      "strategy": "mean_reversion_z",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLF|mean_reversion_z|10bps",
+      "asset": "XLF",
+      "strategy": "mean_reversion_z",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLF|mean_reversion_z|20bps",
+      "asset": "XLF",
+      "strategy": "mean_reversion_z",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLF|rsi_14|5bps",
+      "asset": "XLF",
+      "strategy": "rsi_14",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLF|rsi_14|10bps",
+      "asset": "XLF",
+      "strategy": "rsi_14",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLF|rsi_14|20bps",
+      "asset": "XLF",
+      "strategy": "rsi_14",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLF|vol_target_10pct|5bps",
+      "asset": "XLF",
+      "strategy": "vol_target_10pct",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLF|vol_target_10pct|10bps",
+      "asset": "XLF",
+      "strategy": "vol_target_10pct",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLF|vol_target_10pct|20bps",
+      "asset": "XLF",
+      "strategy": "vol_target_10pct",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLF|ai_parameter_selector|5bps",
+      "asset": "XLF",
+      "strategy": "ai_parameter_selector",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLF|ai_parameter_selector|10bps",
+      "asset": "XLF",
+      "strategy": "ai_parameter_selector",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLF|ai_parameter_selector|20bps",
+      "asset": "XLF",
+      "strategy": "ai_parameter_selector",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLK|buy_and_hold|5bps",
+      "asset": "XLK",
+      "strategy": "buy_and_hold",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLK|buy_and_hold|10bps",
+      "asset": "XLK",
+      "strategy": "buy_and_hold",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLK|buy_and_hold|20bps",
+      "asset": "XLK",
+      "strategy": "buy_and_hold",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLK|momentum_60_day|5bps",
+      "asset": "XLK",
+      "strategy": "momentum_60_day",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLK|momentum_60_day|10bps",
+      "asset": "XLK",
+      "strategy": "momentum_60_day",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLK|momentum_60_day|20bps",
+      "asset": "XLK",
+      "strategy": "momentum_60_day",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLK|ma_crossover_20_100|5bps",
+      "asset": "XLK",
+      "strategy": "ma_crossover_20_100",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLK|ma_crossover_20_100|10bps",
+      "asset": "XLK",
+      "strategy": "ma_crossover_20_100",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLK|ma_crossover_20_100|20bps",
+      "asset": "XLK",
+      "strategy": "ma_crossover_20_100",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLK|mean_reversion_z|5bps",
+      "asset": "XLK",
+      "strategy": "mean_reversion_z",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLK|mean_reversion_z|10bps",
+      "asset": "XLK",
+      "strategy": "mean_reversion_z",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLK|mean_reversion_z|20bps",
+      "asset": "XLK",
+      "strategy": "mean_reversion_z",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLK|rsi_14|5bps",
+      "asset": "XLK",
+      "strategy": "rsi_14",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLK|rsi_14|10bps",
+      "asset": "XLK",
+      "strategy": "rsi_14",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLK|rsi_14|20bps",
+      "asset": "XLK",
+      "strategy": "rsi_14",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLK|vol_target_10pct|5bps",
+      "asset": "XLK",
+      "strategy": "vol_target_10pct",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLK|vol_target_10pct|10bps",
+      "asset": "XLK",
+      "strategy": "vol_target_10pct",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLK|vol_target_10pct|20bps",
+      "asset": "XLK",
+      "strategy": "vol_target_10pct",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLK|ai_parameter_selector|5bps",
+      "asset": "XLK",
+      "strategy": "ai_parameter_selector",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLK|ai_parameter_selector|10bps",
+      "asset": "XLK",
+      "strategy": "ai_parameter_selector",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLK|ai_parameter_selector|20bps",
+      "asset": "XLK",
+      "strategy": "ai_parameter_selector",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLE|buy_and_hold|5bps",
+      "asset": "XLE",
+      "strategy": "buy_and_hold",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLE|buy_and_hold|10bps",
+      "asset": "XLE",
+      "strategy": "buy_and_hold",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLE|buy_and_hold|20bps",
+      "asset": "XLE",
+      "strategy": "buy_and_hold",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLE|momentum_60_day|5bps",
+      "asset": "XLE",
+      "strategy": "momentum_60_day",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLE|momentum_60_day|10bps",
+      "asset": "XLE",
+      "strategy": "momentum_60_day",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLE|momentum_60_day|20bps",
+      "asset": "XLE",
+      "strategy": "momentum_60_day",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLE|ma_crossover_20_100|5bps",
+      "asset": "XLE",
+      "strategy": "ma_crossover_20_100",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLE|ma_crossover_20_100|10bps",
+      "asset": "XLE",
+      "strategy": "ma_crossover_20_100",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLE|ma_crossover_20_100|20bps",
+      "asset": "XLE",
+      "strategy": "ma_crossover_20_100",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLE|mean_reversion_z|5bps",
+      "asset": "XLE",
+      "strategy": "mean_reversion_z",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLE|mean_reversion_z|10bps",
+      "asset": "XLE",
+      "strategy": "mean_reversion_z",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLE|mean_reversion_z|20bps",
+      "asset": "XLE",
+      "strategy": "mean_reversion_z",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLE|rsi_14|5bps",
+      "asset": "XLE",
+      "strategy": "rsi_14",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLE|rsi_14|10bps",
+      "asset": "XLE",
+      "strategy": "rsi_14",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLE|rsi_14|20bps",
+      "asset": "XLE",
+      "strategy": "rsi_14",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLE|vol_target_10pct|5bps",
+      "asset": "XLE",
+      "strategy": "vol_target_10pct",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLE|vol_target_10pct|10bps",
+      "asset": "XLE",
+      "strategy": "vol_target_10pct",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLE|vol_target_10pct|20bps",
+      "asset": "XLE",
+      "strategy": "vol_target_10pct",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLE|ai_parameter_selector|5bps",
+      "asset": "XLE",
+      "strategy": "ai_parameter_selector",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLE|ai_parameter_selector|10bps",
+      "asset": "XLE",
+      "strategy": "ai_parameter_selector",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLE|ai_parameter_selector|20bps",
+      "asset": "XLE",
+      "strategy": "ai_parameter_selector",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLV|buy_and_hold|5bps",
+      "asset": "XLV",
+      "strategy": "buy_and_hold",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLV|buy_and_hold|10bps",
+      "asset": "XLV",
+      "strategy": "buy_and_hold",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLV|buy_and_hold|20bps",
+      "asset": "XLV",
+      "strategy": "buy_and_hold",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLV|momentum_60_day|5bps",
+      "asset": "XLV",
+      "strategy": "momentum_60_day",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLV|momentum_60_day|10bps",
+      "asset": "XLV",
+      "strategy": "momentum_60_day",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLV|momentum_60_day|20bps",
+      "asset": "XLV",
+      "strategy": "momentum_60_day",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLV|ma_crossover_20_100|5bps",
+      "asset": "XLV",
+      "strategy": "ma_crossover_20_100",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLV|ma_crossover_20_100|10bps",
+      "asset": "XLV",
+      "strategy": "ma_crossover_20_100",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLV|ma_crossover_20_100|20bps",
+      "asset": "XLV",
+      "strategy": "ma_crossover_20_100",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLV|mean_reversion_z|5bps",
+      "asset": "XLV",
+      "strategy": "mean_reversion_z",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLV|mean_reversion_z|10bps",
+      "asset": "XLV",
+      "strategy": "mean_reversion_z",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLV|mean_reversion_z|20bps",
+      "asset": "XLV",
+      "strategy": "mean_reversion_z",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLV|rsi_14|5bps",
+      "asset": "XLV",
+      "strategy": "rsi_14",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLV|rsi_14|10bps",
+      "asset": "XLV",
+      "strategy": "rsi_14",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLV|rsi_14|20bps",
+      "asset": "XLV",
+      "strategy": "rsi_14",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLV|vol_target_10pct|5bps",
+      "asset": "XLV",
+      "strategy": "vol_target_10pct",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLV|vol_target_10pct|10bps",
+      "asset": "XLV",
+      "strategy": "vol_target_10pct",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLV|vol_target_10pct|20bps",
+      "asset": "XLV",
+      "strategy": "vol_target_10pct",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLV|ai_parameter_selector|5bps",
+      "asset": "XLV",
+      "strategy": "ai_parameter_selector",
+      "cost_bps": 5,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLV|ai_parameter_selector|10bps",
+      "asset": "XLV",
+      "strategy": "ai_parameter_selector",
+      "cost_bps": 10,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    },
+    {
+      "id": "XLV|ai_parameter_selector|20bps",
+      "asset": "XLV",
+      "strategy": "ai_parameter_selector",
+      "cost_bps": 20,
+      "status": "pending",
+      "result": null,
+      "completed_at": null,
+      "error": null
+    }
+  ],
+  "schema_version": 1
+}

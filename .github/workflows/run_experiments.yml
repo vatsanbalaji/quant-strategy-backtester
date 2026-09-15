@@ -1,0 +1,55 @@
+name: Run walk-forward study batch
+
+# Runs a batch of the ongoing multi-asset / multi-strategy walk-forward
+# study (see automation/universe.py for scope, automation/queue.py for how
+# work is tracked) and commits genuinely new results back to the repo.
+#
+# This does NOT re-run cells that already have results -- automation/queue.py
+# tracks completion state in automation/state/queue_state.json, which is
+# itself committed, so the repo's own history shows real study progress
+# over time rather than repeated identical runs.
+
+on:
+  schedule:
+    # Mon / Wed / Fri at 13:00 UTC. Adjust cadence here if you want it
+    # faster/slower -- each run only does as much NEW work as --batch-size
+    # below allows, so more frequent runs just finish the study sooner,
+    # they don't fabricate extra content.
+    - cron: "0 13 * * 1,3,5"
+  workflow_dispatch: {}  # allows a manual "Run workflow" click from the Actions tab
+
+permissions:
+  contents: write  # needed so the job can push its own commits back
+
+jobs:
+  run-batch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run next study batch
+        run: python -m automation.run_batch --batch-size 20
+
+      - name: Run test suite (sanity check before committing)
+        run: pytest -q
+
+      - name: Commit and push new results
+        run: |
+          git config user.name "quantbench-study-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add reports/aggregate_results.csv RESEARCH_LOG.md automation/state/queue_state.json
+          if git diff --cached --quiet; then
+            echo "No new results this run (queue may be empty) -- nothing to commit."
+          else
+            git commit -m "Automated study batch: $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
