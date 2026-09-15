@@ -247,14 +247,3 @@ broken change can't silently poison the study's results.
   beginner-tagged issues). If this project gets real outside interest
   later, that's the right time to add it, not before there's anyone to
   use it.
-
-## A note on the writing
-
-Most of the code and prose here was built with an AI coding assistant.
-`RESEARCH_LOG.md` entries are generated automatically by
-`automation/run_batch.py`; everything else (this README, `CONTRIBUTING.md`,
-code comments) went through an editing pass to strip out the usual signs
-of unedited AI writing (em dashes standing in for punctuation, inflated
-"marks a significant milestone" language, filler that pads a sentence
-without adding information). See `CONTRIBUTING.md` for the actual rule
-applied to new writing going forward.
