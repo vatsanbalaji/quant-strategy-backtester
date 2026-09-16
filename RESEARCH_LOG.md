@@ -15,3 +15,8 @@ Ran 20 cells this batch. Study progress: 28/315 complete (8.9%).
 - Best Sharpe this batch: `QQQ|buy_and_hold|5bps` (Sharpe=1.02, ann. return=18.10%)
 - This batch: AI-selector avg Sharpe=0.57 vs. rule-based avg Sharpe=0.77.
 
+## 2026-09-16T17:37:14.075327+00:00 (commit base: 221235c)
+Ran 20 cells this batch. Study progress: 48/315 complete (15.2%).
+- Best Sharpe this batch: `QQQ|rsi_14|5bps` (Sharpe=0.85, ann. return=7.36%)
+- This batch: AI-selector avg Sharpe=0.72 vs. rule-based avg Sharpe=0.63.
+
