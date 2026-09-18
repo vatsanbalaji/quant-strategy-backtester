@@ -25,3 +25,8 @@ Ran 20 cells this batch. Study progress: 68/315 complete (21.6%).
 - Best Sharpe this batch: `DIA|buy_and_hold|5bps` (Sharpe=0.97, ann. return=10.74%)
 - This batch: AI-selector avg Sharpe=-0.09 vs. rule-based avg Sharpe=0.50.
 
+## 2026-09-18T17:03:54.698765+00:00 (commit base: 6c80d7c)
+Ran 20 cells this batch. Study progress: 88/315 complete (27.9%).
+- Best Sharpe this batch: `DIA|vol_target_10pct|5bps` (Sharpe=0.85, ann. return=7.38%)
+- This batch: AI-selector avg Sharpe=0.35 vs. rule-based avg Sharpe=0.60.
+
