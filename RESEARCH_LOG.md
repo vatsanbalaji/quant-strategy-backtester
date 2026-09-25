@@ -45,3 +45,8 @@ Ran 20 cells this batch. Study progress: 148/315 complete (47.0%).
 - Best Sharpe this batch: `IEF|buy_and_hold|5bps` (Sharpe=0.51, ann. return=3.14%)
 - This batch: AI-selector avg Sharpe=0.20 vs. rule-based avg Sharpe=0.26.
 
+## 2026-09-25T17:54:26.660228+00:00 (commit base: 95d0dc5)
+Ran 20 cells this batch. Study progress: 168/315 complete (53.3%).
+- Best Sharpe this batch: `IEF|buy_and_hold|10bps` (Sharpe=0.48, ann. return=3.00%)
+- This batch: AI-selector avg Sharpe=0.21 vs. rule-based avg Sharpe=0.18.
+
