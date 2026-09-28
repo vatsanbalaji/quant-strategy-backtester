@@ -55,3 +55,8 @@ Ran 20 cells this batch. Study progress: 188/315 complete (59.7%).
 - Best Sharpe this batch: `LQD|buy_and_hold|5bps` (Sharpe=0.68, ann. return=3.79%)
 - This batch: AI-selector avg Sharpe=0.18 vs. rule-based avg Sharpe=0.33.
 
+## 2026-09-28T16:34:40.447567+00:00 (commit base: a2ffba1)
+Ran 20 cells this batch. Study progress: 208/315 complete (66.0%).
+- Best Sharpe this batch: `GLD|buy_and_hold|5bps` (Sharpe=0.59, ann. return=10.27%)
+- This batch: AI-selector avg Sharpe=0.13 vs. rule-based avg Sharpe=0.31.
+
