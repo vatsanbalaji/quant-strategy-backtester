@@ -65,3 +65,8 @@ Ran 20 cells this batch. Study progress: 228/315 complete (72.4%).
 - Best Sharpe this batch: `SLV|rsi_14|5bps` (Sharpe=0.59, ann. return=6.62%)
 - This batch: AI-selector avg Sharpe=0.12 vs. rule-based avg Sharpe=0.13.
 
+## 2026-09-30T18:21:33.001797+00:00 (commit base: 888eb4a)
+Ran 20 cells this batch. Study progress: 248/315 complete (78.7%).
+- Best Sharpe this batch: `XLF|rsi_14|5bps` (Sharpe=0.79, ann. return=7.20%)
+- This batch: AI-selector avg Sharpe=0.05 vs. rule-based avg Sharpe=0.55.
+
