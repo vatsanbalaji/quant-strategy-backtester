@@ -85,3 +85,8 @@ Ran 20 cells this batch. Study progress: 308/315 complete (97.8%).
 - Best Sharpe this batch: `XLV|buy_and_hold|5bps` (Sharpe=0.78, ann. return=9.99%)
 - This batch: AI-selector avg Sharpe=0.21 vs. rule-based avg Sharpe=0.52.
 
+## 2026-10-09T18:45:13.504303+00:00 (commit base: ef0556e)
+Ran 7 cells this batch. Study progress: 315/315 complete (100.0%).
+- Best Sharpe this batch: `XLV|vol_target_10pct|5bps` (Sharpe=0.61, ann. return=5.72%)
+- This batch: AI-selector avg Sharpe=0.04 vs. rule-based avg Sharpe=0.56.
+
